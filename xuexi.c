@@ -25,6 +25,7 @@
 //	printf("%d\n", a);
 //
 //}
+//æ¯”å¤§å°å‡½æ•°
 int Max(int x,int y)
 {
 	if (x > y)
@@ -37,11 +38,11 @@ int main()
 	int a = 0;
 	int b = 0;
 	scanf("%d %d",&a ,&b );
-	//·½·¨Ò»if (a > b)
+	//æ–¹æ³•ä¸€if (a > b)
 	//	printf("%d", a);
 	//else printf("%d", b);
 
-	//·½·¨¶ş,ÏÈÖ¸³öº¯ÊıMax,·ñÔòµçÄÔ²»ÈÏ
+	//æ–¹æ³•äºŒ,å…ˆæŒ‡å‡ºå‡½æ•°Max,å¦åˆ™ç”µè„‘ä¸è®¤
 	int m = Max(a, b);
 	printf("%d\n", m);
 
